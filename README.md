@@ -1,16 +1,29 @@
-# React + Vite
+# ADEA Car Rental System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, role-based web application designed for car rental management. This project was developed as Milestone 1 for the MIS2006 Web Programming course.
 
-Currently, two official plugins are available:
+## 🚀 Technologies Used
+* **Frontend Framework:** React + Vite
+* **Routing:** React Router DOM
+* **State Management:** Zustand
+* **Database:** Google Firebase (Cloud Firestore)
+* **Styling:** Inline CSS & Modern Layouts
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ⚙️ Core Features
+1. **Role-Based Authorization:** Secure routing for three distinct user roles (Admin, Rental Agent, and Customer).
+2. **Live Database Integration:** Real-time data fetching from Firebase Firestore to display the live vehicle fleet.
+3. **Global State Management:** Seamless session handling and UI updates using Zustand without page reloads.
+4. **Dynamic Rendering:** Data-driven UI that maps cloud data directly to visual grid components.
 
-## React Compiler
+## 👥 Development Team
+* Emre Sungur 
+* Abdalrahman Abualqare 
+* Ahmet Gürler 
+* Deniz Hacıoğulları
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ How to Run the Project
+To run this project locally, follow these steps:
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/emresungurr/adea-car-rental.git](https://github.com/emresungurr/adea-car-rental.git)
