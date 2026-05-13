@@ -1,6 +1,5 @@
 ADEA Luxury Auto Gallery - Project Final Submission
-A professional, role-based web application designed for premium vehicle rental management. This project was developed as Milestone 1 for the MIS2006 Web Programming course.
-
+A professional, role-based web application designed for premium vehicle rental management. This project was developed as the Final Project for the MIS2006 Web Programming course.
 ADEA Development Team
 Ahmet Gürler
 Deniz Hacıoğulları
