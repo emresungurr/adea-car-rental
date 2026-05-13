@@ -1,0 +1,63 @@
+/**
+ * Reservation Form Styling
+ * Adjusted for Light/White Theme
+ */
+.booking-form-modal {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 15px;
+  color: #111111;
+  font-family: 'Inter', sans-serif;
+  border: 1px solid #eeeeee;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.03);
+}
+
+/* All Input Fields */
+.form-input-field {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9; 
+  color: #333333;
+  border: 1px solid #dddddd;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  font-family: 'Inter', sans-serif;
+  transition: 0.3s ease;
+  box-sizing: border-box;
+}
+
+/* Focus state for inputs */
+.form-input-field:focus {
+  border-color: #ffb800; 
+  outline: none;
+  background-color: #ffffff;
+}
+
+/* Primary Action Button */
+.confirm-btn {
+  width: 100%;
+  padding: 15px;
+  background: #111111; 
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+/* Hover state matching the theme primary color */
+.confirm-btn:hover {
+  background: #ffb800; 
+  color: #111111;
+}
+
+/* Disabled state handling */
+.confirm-btn:disabled {
+  background: #eeeeee;
+  color: #aaaaaa;
+  cursor: not-allowed;
+}

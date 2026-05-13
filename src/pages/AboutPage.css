@@ -1,0 +1,183 @@
+/* Root layout settings */
+.about-wrapper {
+  background: #ffffff;
+  color: #1a1a1a;
+  min-height: 100vh;
+  font-family: 'Inter', sans-serif;
+  width: 100%;
+}
+
+/* Hero section styling */
+.hero-section {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  color: #000000;
+}
+
+.hero-subtext {
+  color: #666666;
+  font-size: 1.2rem;
+}
+
+/* Story section layout */
+.story-container {
+  display: flex;
+  max-width: 1200px;
+  margin: 40px auto;
+  gap: 60px;
+  padding: 0 40px;
+  align-items: center;
+}
+
+/* Story image container and hover animation */
+.story-image {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.story-image img {
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.story-image:hover img {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+/* Story text styling */
+.story-text {
+  flex: 1;
+}
+
+.story-text h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+.story-text p {
+  line-height: 1.8;
+  color: #444444;
+}
+
+/* Checklist styling */
+.check-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.check-list li {
+  margin-bottom: 12px;
+  font-weight: 600;
+  color: #2e7d32;
+}
+
+/* Stats - Dark grey corporate bar */
+.stats-bar {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 1100px;
+  margin: 60px auto;
+  background: #333333;
+  padding: 40px;
+  border-radius: 20px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.stat-item h3 {
+  font-size: 2.2rem;
+  margin: 0;
+}
+
+.stat-item p {
+  margin-top: 8px;
+  color: #aaaaaa;
+  font-size: 0.9rem;
+}
+
+/* Section titles for Team and Map */
+.section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #111111;
+  margin-bottom: 30px;
+}
+
+/* Team - 4 items in a row */
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  max-width: 1200px;
+  margin: 40px auto 100px;
+  padding: 0 40px;
+}
+
+/* Team card styling with theme yellow border */
+.team-card {
+  background: #f9f9f9;
+  padding: 30px;
+  border-radius: 16px;
+  border-bottom: 4px solid #ffb800; 
+  transition: 0.3s ease;
+}
+
+.team-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+.member-role {
+  color: #b8860b;
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.member-name {
+  margin: 12px 0;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #111111;
+}
+
+.member-desc {
+  font-size: 0.85rem;
+  color: #777777;
+  line-height: 1.5;
+}
+
+/* Map container styling */
+.map-container {
+  padding: 60px 40px;
+  background: #f4f4f4;
+  text-align: center;
+}
+
+.address-text {
+  color: #666666;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+
+.google-map {
+  height: 450px;
+  border-radius: 24px;
+  overflow: hidden;
+  max-width: 1100px;
+  margin: 0 auto;
+  border: 1px solid #dddddd;
+}

@@ -1,0 +1,119 @@
+.contact-page-wrapper {
+  background-color: #f4f4f4;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+}
+
+.contact-card {
+  background-color: #ffffff;
+  border-radius: 24px;
+  padding: 50px;
+  width: 100%;
+  max-width: 650px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.05);
+}
+
+.contact-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.contact-title {
+  color: #111111 !important;
+  font-size: 2.5rem;
+  font-weight: 900;
+  margin: 0 0 10px 0;
+}
+
+.contact-subtitle {
+  color: #666666;
+  font-size: 0.95rem;
+  margin: 0;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  display: block;
+  font-size: 0.75rem;
+  font-weight: bold;
+  color: #111111;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.form-input, .form-textarea {
+  width: 100%;
+  padding: 16px;
+  border-radius: 12px;
+  border: none;
+  background-color: #f5f5f5;
+  color: #333333;
+  font-size: 0.95rem;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.form-textarea {
+  min-height: 140px;
+  resize: vertical;
+}
+
+.submit-btn {
+  background-color: #ffb800;
+  color: #111111;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 18px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #e6a600; 
+}
+
+.contact-info-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  padding-top: 30px;
+  border-top: 1px solid #eeeeee;
+}
+
+.contact-info-item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #555555;
+  font-size: 0.85rem;
+  line-height: 1.6;
+  padding: 0 10px;
+}
+
+.contact-info-icon {
+  margin-bottom: 8px;
+}
+
+.contact-info-text {
+  font-weight: bold;
+  color: #333333;
+}
